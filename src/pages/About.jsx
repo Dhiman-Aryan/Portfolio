@@ -60,7 +60,7 @@ const About = () => {
                 </div>
                 <div className="flex">
                   <span className="text-slate-400 font-medium w-32 font-serif">Location:</span>
-                  <span className="text-slate-300 font-serif">New Delhi, India</span>
+                  <span className="text-slate-300 font-serif">Saharanpur, India</span>
                 </div>
                 <div className="flex">
                   <span className="text-slate-400 font-medium w-32 font-serif">Education:</span>

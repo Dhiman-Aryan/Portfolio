@@ -116,7 +116,14 @@ const Header = () => {
       activeTab === tab.id ? 'text-white' : 'text-slate-400 hover:text-slate-200'
     }`}
   >
-    // ... rest of the code
+     {activeTab === tab.id && (
+                  <motion.span
+                    layoutId="bubble"
+                    className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full"
+                    transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                  />
+                )}
+                <span className="relative z-10">{tab.label}</span>
   </button>
 ))}
             </div>

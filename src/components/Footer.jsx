@@ -39,7 +39,7 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
           >
             <h3 className="text-2xl font-bold text-gradient mb-4">Aryan Dhiman</h3>
-            <p className="text-slate-400 mb-6">
+            <p className="text-slate-400  mb-6 text-justify">
               Full-stack developer specializing in the MERN stack. Creating beautiful, functional web applications with modern technologies.
             </p>
             <div className="flex space-x-4">
